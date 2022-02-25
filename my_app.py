@@ -10,7 +10,7 @@ from datetime import datetime
 # initialize the flask app
 app = Flask(__name__)
 
-app.config['SQLALCHEMY_DATABASE_URI'] = "mysql+pymysql://simoh:password@simoh.mysql.pythonanywhere-services.com/simoh$timetable"
+app.config['SQLALCHEMY_DATABASE_URI'] = "Database URI here"
 app.config['SQLALCHEMY_TRACK_MODIFICATIONS'] = False
 db = SQLAlchemy(app)
 
